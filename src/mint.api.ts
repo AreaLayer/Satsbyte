@@ -1,4 +1,4 @@
-const axios = require('axios').default;
+import axios = require('axios').default;
 
 const mintApi = {
     requestMint: async function (amount) {
