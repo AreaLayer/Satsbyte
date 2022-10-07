@@ -1,1 +1,1 @@
-# Cashuwallet-typescript
+# Satsbyte
