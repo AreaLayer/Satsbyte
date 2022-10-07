@@ -1,4 +1,4 @@
-const { utils } = require('@noble/secp256k1')
+import { utils } = require('@noble/secp256k1')
 
 function splitAmount(value) {
     const chunks = []
