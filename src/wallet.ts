@@ -1,7 +1,7 @@
-const { utils, Point } = require('@noble/secp256k1')
-const mintApi = require('./mint.api')
-const dhke = require('./dhke')
-const { splitAmount, bytesToNumber, bigIntStringify } = require('./utils')
+import { utils, Point } = require('@noble/secp256k1')
+import mintApi = require('./mint.api')
+import dhke = require('./dhke')
+import { splitAmount, bytesToNumber, bigIntStringify } = require('./utils')
 
 class Wallet {
     constructor(keys) {
