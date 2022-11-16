@@ -5,7 +5,7 @@
   "requires": true,
   "packages": {
     "": {
-      "name": "Satsbyte-typescript-wallet",
+      "name": "Satsbyte-wallet",
       "version": "0.0.1",
       "license": "MIT",
       "dependencies": {
