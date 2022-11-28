@@ -31,6 +31,8 @@ class Wallet {
         const invoice = await mintApi.requestMint(amount);
         return invoice
     }
+    async requestfee(amount)
+         const fee= await mintAPI.requestFee(0.005)
 
     async requestTokens(amounts, paymentHash) {
         const payloads = {blinded_messages : []}
