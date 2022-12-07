@@ -14,7 +14,13 @@ Fees: 0.005% per transaction
 
 # Install
 
-`` clone github.com/Layer2Labs/Satsbyte.git``
+Pre Requisites:
+
+Ts Nodes
+
+Steps
+
+`` git clone github.com/Layer2Labs/Satsbyte.git``
 
 # To-Do
 
