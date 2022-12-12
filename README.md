@@ -22,6 +22,10 @@ Pre Requisites:
 
 `` git clone github.com/Layer2Labs/Satsbyte.git``
 
+``node -v``
+
+``npm install -g typescript``
+
 # To-Do
 
 - [X] Fees
