@@ -18,7 +18,7 @@ Pre Requisites:
 
 -Ts Nodes
 
-*Steps
+# Steps
 
 `` git clone github.com/Layer2Labs/Satsbyte.git``
 
