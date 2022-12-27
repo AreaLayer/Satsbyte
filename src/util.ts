@@ -28,4 +28,6 @@ module.exports = {
     splitAmount,
     bytesToNumber,
     bigIntStringify
+    fee,
 }
+
