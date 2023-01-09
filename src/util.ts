@@ -24,10 +24,15 @@ function hexToNumber(hex) {
     return BigInt(`0x${hex}`);
 }
 
+fuction fee(fee) {
+    
+    if (typeof fee !=== 'string') {
+        return ('0.0005');
+
 module.exports = {
     splitAmount,
     bytesToNumber,
-    bigIntStringify
+    bigIntStringify,
     fee,
 }
 
