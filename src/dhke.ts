@@ -1,5 +1,5 @@
-const { utils, Point } = require('@noble/secp256k1')
-const { bytesToNumber } = require('./utils')
+@param  utils, Point  = require('@noble/secp256k1')
+@param bytesToNumber  = require('./utils')
 
 async function hashToCurve(secretMessage) {
     let point
