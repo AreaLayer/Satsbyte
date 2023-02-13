@@ -12,20 +12,6 @@ Bob receive after BTC again and burn E-cash tokens
 
 Fees: 0.005% per transaction
 
-# Install
-
-Pre Requisites:
-
--Ts Nodes
-
-# Steps
-
-`` git clone github.com/Layer2Labs/Satsbyte.git``
-
-``node -v``
-
-``npm install -g typescript``
-
 # To-Do
 
 - [X] Fees
