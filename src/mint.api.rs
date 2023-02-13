@@ -1,4 +1,5 @@
-import axios = require('axios').default;
+use fedimint::
+
 
 const mintApi = {
     requestMint: async function (amount) {
