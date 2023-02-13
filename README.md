@@ -36,4 +36,6 @@ Pre Requisites:
 
 - [ ] Mainnet 
 
+- [ ] Portico Exchange integration
+
 
