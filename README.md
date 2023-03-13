@@ -16,12 +16,9 @@ Fees: 0.005% per transaction
 
 - [X] Fees
 
-- [ ] UI
+- [X] UI Alpha version
 
 - [ ] Testnet
 
 - [ ] Mainnet 
-
-- [ ] Portico Exchange integration
-
 
