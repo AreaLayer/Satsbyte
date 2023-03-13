@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>SatsByte</title>
+	<style>
+		body {
+			font-family: Arial, Helvetica, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
 
+		.header {
+			background-color: #0277BD;
+			color: white;
+			padding: 20px;
+			text-align: center;
+		}
+
+		.content {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			justify-content: center;
+			height: 100%;
+		}
+
+		.container {
+			background-color: white;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+			padding: 20px;
+			text-align: center;
+		}
+
+		.button {
+			background-color: #0277BD;
+			border: none;
+			color: white;
+			cursor: pointer;
+			padding: 10px;
+			margin: 10px;
+			border-radius: 5px;
+			font-size: 16px;
+		}
+
+		.active {
+			background-color: #4FC3F7;
+			color: white;
+		}
+
+		.input {
+			border: none;
+			border-radius: 5px;
+			padding: 10px;
+			margin: 10px;
+			font-size: 16px;
+			width: 200px;
+		}
+	</style>
+</head>
+<body>
+	<div class="header">
+		<h1>Blue Wallet</h1>
+	</div>
+	<div class="content">
+		<div class="container">
+			<h2>Swap between Lightning Network and Fedimint</h2>
+			<div>
+				<button id="lightning-btn" class="button active" onclick="showLightning()">Lightning Network</button>
+				<button id="fedimint-btn" class="button" onclick="showFedimint()">Fedimint</button>
+			</div>
+			<div id="lightning" class="active">
+				<p>Enter the amount to send:</p>
+				<input type="text" class="input">
+				<p>Enter the recipient's Lightning Network address:</p>
+				<input type="text" class="input">
+				<br>
+				<button class="button">Send</button>
+			</div>
+			<div id="fedimint">
+				<p>Enter the amount to send:</p>
+				<input type="text" class="input">
+				<p>Enter the recipient's Fedimint address:</p>
+				<input type="text" class="input">
+				<br>
+				<button class="button">Send</button>
+			</div>
+		</div>
+	</div>
+	<script>
+		function showLightning() {
+			document.getElementById("lightning-btn").classList.add("active");
+			document.getElementById("fedimint-btn").classList.remove("active");
+			document.getElementById("lightning").classList.add("active");
+			document.getElementById("fedimint").classList.remove("active");
+		}
+
+		function showFedimint() {
+			document.getElementById("lightning-btn").classList.remove("active");
+			document.getElementById("fedimint-btn").classList.add("active");
+			document.getElementById("
