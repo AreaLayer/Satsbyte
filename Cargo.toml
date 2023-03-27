@@ -1,4 +1,4 @@
-[dependencies]
+[package]
 
 fedimint-core = "0.1.0"
 fedimint-walllet = "0.1.0"
