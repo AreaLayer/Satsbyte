@@ -1,9 +1,7 @@
 use bitcoin::util::address::Address;
 use bitcoin::blockdata::transaction::{TxIn, TxOut};
 use bitcoin::network::serialize::BitcoinHash;
-use fedimint_core::core::client::{inputAmount, outputAmount};
-use fedimint_core::core::client::decoder::decoder;
-use fedimint_core::core::client::as_any;
+use ldk::client::{inputAmount, outputAmount, decoder, as_any};
 
 // Define an `Input` struct that wraps a Bitcoin transaction input.
 struct Input {
@@ -74,5 +72,8 @@ fn extract_inputs_outputs(tx_hex: &str) -> Result<(Vec<Box<dyn inputAmount>>, Ve
 }
 
 // Define a function that creates a Bitcoin transaction from a list of inputs and outputs.
-fn create_tx(inputs: &[Box<dyn inputAmount>], outputs: &[Box<dyn outputAmount>])
+fn create_tx(inputs: &[Box<dyn inputAmount>], outputs: &[Box<dyn outputAmount>]]) -> Result<bitcoin::Transaction, Box<dyn std::error::Error>> {
+    let mut tx = bitcoin::Transaction {
+        version:
+
 
