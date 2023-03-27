@@ -18,7 +18,7 @@ Fees: 0.005% per transaction
 
 - [X] UI Alpha version
 
-- [ ] Testnet
+- [X] Testnet
 
 - [ ] Mainnet 
 
