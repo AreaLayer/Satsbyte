@@ -1,7 +1,7 @@
 use ldk::wallet
 use ldk::invoice
 
-fn open invoice
+fn open invoice {
 
-fn close invoice
+fn close invoice{
 
